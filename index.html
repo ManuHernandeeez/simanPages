@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Kanchenjunga:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!--Banner logo -->
+        <section>
+            <div class="banner_logo">
+                <a href="index.html">
+                    <img src="src/logo.webp" alt="Logo" />
+                </a>
+                <form>
+                    <input type="text" placeholder="Buscar..." />
+                </form>
+            </div>
+        </section>
+
+        <!-- navegacion-->
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-bars"></i> Departamentos</a></li>
+                <li><a href="pages/ofertasMadres.html"><i class="far fa-question-circle"></i>Ofertas</a></li>
+                <li><a href="pages/descuentosPromociones.html">Descuentos</a></li>
+                <li><a href="pages/acercaDe.html">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+        </section>
+    </header>
+
+    <main>
+        <!-- Carrusel de imagenes-->
+
+        <section class="carrusel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/carrucel-img1.jpg" class="d-block g-1200" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/carrucel-img2.jpg" class="d-block w-1200" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/carrucel-img3.jpg" class="d-block w-1200" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/carrucel-img4.jpg" class="d-block w-1200" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/carrucel-img5.jpg" class="d-block w-1200" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!--   tarjetas relojes  -->
+        <h2>Ofertas</h2>
+
+        <section class="tarjetas">
+            <div class="card" style="width: 18rem;">
+                <img src="src/reloj1.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch metalico</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="src/reloj2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch OLED</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="src/reloj3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch Blanco</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="src/reloj4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch Circular</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="src/reloj5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch Naranja</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner -->
+        <section class="banner1">
+            <img src="src/banner2.jpg" alt="Promotional Banner" />
+        </section>
+
+        <!--tarjetas de audifonos -->
+        <h2>Audífonos</h2>
+        <h3 style="text-align: center;">Encuentra el par de audífonos que mejor se adapte a ti</h3>
+        <section class="audifonos">
+
+            <div class="grid-container">
+                <div class="card large-card">
+                    <img src="src/audifonos1.jpg" class="card-img-top" alt="Audifono 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Audífono Premium</h5>
+                        <p class="card-text">Calidad de sonido excepcional para los amantes de la música.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/audifonos2.jpg" class="card-img-top" alt="Audifono 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Audífono Compacto</h5>
+                        <p class="card-text">Diseño compacto y cómodo para uso diario.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/audifonos3.jpg" class="card-img-top" alt="Audifono 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Audífono Deportivo</h5>
+                        <p class="card-text">Perfecto para acompañarte en tus entrenamientos.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/audifonos4.jpg" class="card-img-top" alt="Audifono 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Audífono Gamer</h5>
+                        <p class="card-text">Sumérgete en tus juegos con sonido envolvente.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/audifonos5.jpg" class="card-img-top" alt="Audifono 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Audífono Bluetooth</h5>
+                        <p class="card-text">Libertad inalámbrica con excelente calidad de sonido.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2>¡Llegó el verano!</h2>
+        <section class="verano">
+
+            <div class="card">
+                <img src="src/shop1.jpg" alt="Imagen 1">
+                <div class="card-title">Disfruta estas vacaciones</div>
+            </div>
+            <div class="card">
+                <img src="src/shop2.jpg" alt="Imagen 2">
+                <div class="card-title">Encuentra productos de verano</div>
+            </div>
+        </section>
+    </main>
+
+    <br>
+
+    <!--inicio footer -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>siman.com</h3>
+                <p>Suscríbete para obtener las mejores ofertas</p>
+                <form>
+                    <input type="email" placeholder="e-mail">
+                    <button type="submit">Suscribirme</button>
+                </form>
+                <p><i class="fas fa-phone"></i> 2298-3777</p>
+                <p>Mantente en contacto con nosotros</p>
+                <p>
+                    <a href="https://github.com/ManuHernandeeez" target="_blank" class="github-link">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="GitHub" style="width:24px; vertical-align:middle; margin-right:6px;">
+                        GitHub Personal
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>SIMAN CORPORATIVO</h3>
+                <ul>
+                    <li><a href="#">Quiénes Somos</a></li>
+                    <li><a href="#">Visión y Misión</a></li>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Sucursales</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>PROGRAMAS</h3>
+                <ul>
+                    <li><a href="#">Monedero</a></li>
+                    <li><a href="#">Certificados de Regalo</a></li>
+                    <li><a href="#">Garantías</a></li>
+                    <li><a href="#">Siman PRO</a></li>
+                    <li><a href="#">Crediman</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Vende en Marketplace</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>SERVICIO AL CLIENTE</h3>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Política de Devoluciones</a></li>
+                    <li><a href="#">Contáctenos</a></li>
+                    <li><a href="#">Seguridad del sitio</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Condiciones de uso</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
